@@ -59,7 +59,6 @@ footer:
     - label: "+38 (096) 088-58-32"
       icon: "fas fa-fw fa-phone"
       url: "tel:+380960885832"
-
     - label: "+38 (093) 992-87-75"
       icon: "fas fa-fw fa-phone"
       url: "tel:+380939928775"
