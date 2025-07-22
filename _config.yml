@@ -1,0 +1,70 @@
+title: "enotik"
+logo: /assets/images/logo.svg
+description: "Ремонт та продаж комп'ютерної техніки"
+url: "https://voxbou.github.io"
+baseurl: "/enotikif"   
+atom_feed:
+  hide: true
+minimal_mistakes_skin: "default"
+
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:title/
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      toc: false
+
+header:
+  show_title: true
+  show_logo: true
+
+footer:
+  links_top:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:contact@enotik.if.ua"
+    - label: "Signal"
+      icon: "fa-brands fa-signal-messenger"
+      url: ""
+    - label: "Telegram"
+      icon: "fa-brands fa-telegram"
+      url: ""
+    - label: "Facebook"
+      icon: "fa-brands fa-facebook"
+      url: "https://www.facebook.com/enotikifua/?locale=uk_UA"
+    - label: "Instagram"
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/enotikif/"
+    - label: "TikTok"
+      icon: "fa-brands fa-tiktok"
+      url: "https://www.tiktok.com/@enotikif/"
+
+  links_bottom:
+    - label: "+38 (096) 088-58-32"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+380960885832"
+
+    - label: "+38 (093) 992-87-75"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+380939928775"
+    - label: "Пн–Пт: 10:00–18:00"
+      icon: "fas fa-fw fa-clock"
+    - label: "Юридична інформація"
+      icon: "fas fa-fw fa-file"
+      url: "/assets/files/terms-and-privacy-policy.html"
+
