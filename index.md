@@ -11,7 +11,7 @@ classes: wide
 <div class="feature-grid">
 
   <div class="feature feature--repair">
-    <img src="/assets/images/repair_icon.svg" alt="Repair icon">
+    <img src="{{ '/assets/images/repair_icon.svg' | relative_url }}" alt="Repair icon">
     <h3>Ремонт</h3>
     <p>
       Діагностуємо й відновлюємо ноутбуки, ПК, відеокарти та консолі — від заміни роз’ємів до реболу (re-ball) BGA, з офіційною гарантією.
@@ -20,7 +20,7 @@ classes: wide
   </div>
 
   <div class="feature feature--sell">
-    <img src="/assets/images/sell_icon.svg" alt="Sell icon">
+    <img src="{{ '/assets/images/sell_icon.svg' | relative_url }}" alt="Sell icon">
     <h3>Продаж</h3>
     <p>
       Нові й перевірені вживані ноутбуки з США, збірка ПК «під ключ» та аксесуари — усі пристрої протестовані і готові до роботи.
@@ -29,7 +29,7 @@ classes: wide
   </div>
 
   <div class="feature feature--support">
-    <img src="/assets/images/support.svg" alt="Support icon">
+    <img src="{{ '/assets/images/support.svg' | relative_url }}" alt="Support icon">
     <h3>Підтримка</h3>
     <p>
       Встановлення Windows 10/11 або LMDE, міграція даних, регулярне обслуговування офісних ПК та віддалена допомога для бізнесу.
@@ -44,9 +44,9 @@ classes: wide
 
 <div class="device-gallery">
   <figure class="device-card">
-    <a href="/assets/images/laptops/dell5570_full.jpg"
+    <a href="{{ '/assets/images/laptops/dell5570_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/dell5570_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/dell5570_thumb.jpg' | relative_url }}"
            alt="Dell Inspiron 5570">
     </a>
     <figcaption>
@@ -62,9 +62,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/prec7510_full.jpg"
+    <a href="{{ '/assets/images/laptops/prec7510_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/prec7510_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/prec7510_thumb.jpg' | relative_url }}"
            alt="Dell Precision 7510">
     </a>
     <figcaption>
@@ -81,9 +81,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/zbook15_full.jpg"
+    <a href="{{ '/assets/images/laptops/zbook15_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/zbook15_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/zbook15_thumb.jpg' | relative_url }}"
            alt="HP ZBook 15">
     </a>
     <figcaption>
@@ -100,9 +100,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/elite850g5_full.jpg"
+    <a href="{{ '/assets/images/laptops/elite850g5_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/elite850g5_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/elite850g5_thumb.jpg' | relative_url }}"
            alt="HP EliteBook 850 G5">
     </a>
     <figcaption>
@@ -118,9 +118,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/lat5470_full.jpg"
+    <a href="{{ '/assets/images/laptops/lat5470_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/lat5470_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/lat5470_thumb.jpg' | relative_url }}"
            alt="Dell Latitude 5470">
     </a>
     <figcaption>
@@ -136,9 +136,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/pb440g4_full.jpg"
+    <a href="{{ '/assets/images/laptops/pb440g4_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/pb440g4_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/pb440g4_thumb.jpg' | relative_url }}"
            alt="HP ProBook 440 G4">
     </a>
     <figcaption>
@@ -154,9 +154,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/elitex360g6_full.jpg"
+    <a href="{{ '/assets/images/laptops/elitex360g6_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/elitex360g6_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/elitex360g6_thumb.jpg' | relative_url }}"
            alt="HP EliteBook X360 1040 G6">
     </a>
     <figcaption>
@@ -172,9 +172,9 @@ classes: wide
   </figure>
 
   <figure class="device-card">
-    <a href="/assets/images/laptops/pb430g8_full.jpg"
+    <a href="{{ '/assets/images/laptops/pb430g8_full.jpg' | relative_url }}"
        class="glightbox" data-gallery="laptops">
-      <img src="/assets/images/laptops/pb430g8_thumb.jpg"
+      <img src="{{ '/assets/images/laptops/pb430g8_thumb.jpg' | relative_url }}"
            alt="HP ProBook 430 G8">
     </a>
     <figcaption>
@@ -197,8 +197,8 @@ classes: wide
 
 <div style="max-width: 880px; margin: 2rem auto;">
   <video id="shop-video"
-        src="/assets/video/shop_tour.mp4"
-         poster="/assets/images/shop_tour_poster.png"
+        src="{{ '/assets/video/shop_tour.mp4' | relative_url }}"
+         poster="{{ '/assets/images/shop_tour_poster.png' | relative_url }}"
          controls preload="none"
          style="width: 100%; height: auto; border-radius: 12px;">
      Ваш браузер не підтримує відео‑тег.
@@ -241,41 +241,41 @@ classes: wide
 До того ж, вона вже містить увесь необхідне програмне забезпечення (ПЗ) для щоденної роботи — браузер, офісні програми, програвачі, інструменти для обробки фото та відео, середовища розробки, архіватори, месенджери, інженерне ПЗ та багато іншого. Все це — повністю ліцензоване, безкоштовне і готове до використання з першого запуску.
 
 <div class="project-gallery">
-  <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_1.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_1.png" alt="LMDE screenshot 1">
+  <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_1.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_1.png' | relative_url }}" alt="LMDE screenshot 1">
   </a>
-  <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_2.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_2.png" alt="LMDE screenshot 2">
+  <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_2.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_2.png' | relative_url }}" alt="LMDE screenshot 2">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_3.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_3.png" alt="LMDE screenshot 3">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_3.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_3.png' | relative_url }}" alt="LMDE screenshot 3">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_4.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_4.png" alt="LMDE screenshot 4">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_4.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_4.png' | relative_url }}" alt="LMDE screenshot 4">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_5.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_5.png" alt="LMDE screenshot 5">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_5.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_5.png' | relative_url }}" alt="LMDE screenshot 5">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_6.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_6.png" alt="LMDE screenshot 6">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_6.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_6.png' | relative_url }}" alt="LMDE screenshot 6">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_7.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_7.png" alt="LMDE screenshot 7">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_7.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_7.png' | relative_url }}" alt="LMDE screenshot 7">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_8.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_8.png" alt="LMDE screenshot 8">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_8.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_8.png' | relative_url }}" alt="LMDE screenshot 8">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_9.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_9.png" alt="LMDE screenshot 9">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_9.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_9.png' | relative_url }}" alt="LMDE screenshot 9">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_10.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_10.png" alt="LMDE screenshot 10">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_10.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_10.png' | relative_url }}" alt="LMDE screenshot 10">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_11.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_11.png" alt="LMDE screenshot 11">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_11.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_11.png' | relative_url }}" alt="LMDE screenshot 11">
   </a>
-    <a href="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_12.png" class="glightbox" data-gallery="lmde">
-    <img src="/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_12.png" alt="LMDE screenshot 12">
+    <a href="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_12.png' | relative_url }}" class="glightbox" data-gallery="lmde">
+    <img src="{{ '/assets/images/linux_lmde_screenshots/linux_lmde_screenshot_thumb_12.png' | relative_url }}" alt="LMDE screenshot 12">
   </a>
 </div>
 
@@ -322,7 +322,7 @@ classes: wide
 
 <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
-    <img src="/assets/images/store_location_screenshots/screenshot_store_location.png" 
+    <img src="{{ '/assets/images/store_location_screenshots/screenshot_store_location.png' | relative_url }}" 
          alt="Location screenshot" 
          style="width: 100%; height: 400px; object-fit: cover; border: 1px solid #ccc; border-radius:4px;">
   </div>
